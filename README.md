@@ -13,6 +13,7 @@ Bem-vindo ao repositório dos plugins Home e Windplugin para Minecraft! Estes pl
 ## Sobre
 
 Este repositório contém um plugin de Minecraft relacionado ao Item "Wind Charge" chamado de Windplugin. ele é altamente configurável através do arquivo `config.yml` gerado após a inicialização do servidor.
+Por questões de depuração, existe um debbug para análise de como está o funcionamento do plugin.
 
 ## Funcionalidades
 
