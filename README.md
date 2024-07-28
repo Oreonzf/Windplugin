@@ -28,6 +28,7 @@ O Plugin Windplugin é utilizado para configurar o projétil Wind Charge, garant
 ## Configuração
 
 O plugins pode ser configurado pelo arquivo `config.yml` gerado após a inicialização do servidor. Abaixo estão os detalhes das opções de configuração para o plugin.
+A aparência da explosão aumentada foi feita com uma partícula do Bukkit `EXPLOSION_EMITTER` pois dentro do pacote utilizado não existiam os frames padrões do objeto Wind Charge
 
 ### Plugin Windplugin
 ```yaml
@@ -41,8 +42,6 @@ enable-particles: true        # Ativa/desativa partículas visuais na explosão
 ### Lógica de Implementação do Windplugin
 
 O `WindChargeListener` é responsável por adicionar funcionalidades ao item Wind Charge no Minecraft, permitindo que ele seja usado como um projétil explosivo com várias configurações personalizáveis. Abaixo está uma visão geral da lógica de implementação:
-
-### WindChargeListener.java
 
 #### Atributos Principais
 
