@@ -1,4 +1,10 @@
 name: Windplugin
-version: '1.0-SNAPSHOT'
-main: br.com.windplugin.Windplugin
-api-version: '1.21'
+version: 1.0
+main: br.com.windplugin.WindPlugin
+api-version: 1.21
+commands:
+  reloadwindchargeconfig:
+    description: Recarrega a configuração do Wind Charge
+    usage: /reloadwindchargeconfig
+    permission: windcharge.reload
+    permission-message: You do not have permission to execute this command.
